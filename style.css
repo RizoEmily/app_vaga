@@ -1,0 +1,172 @@
+@charset "UTF-08";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    display: flex;
+}
+
+#logo{
+    width: 150px;
+    height: auto;
+    margin: 10px 20px;
+    margin-left: 60px;
+}
+
+#imagem_logo{
+    align-items: center;
+    
+}
+
+#botao_istalar{
+    align-items: center;
+    margin: auto;
+    margin-right:80px;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin: auto;
+    margin-left: 300px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.botao_atrativo{
+    background: rgb(12,0,71);
+    background: linear-gradient(142deg, rgba(12,0,71,1) 17%, rgba(7,108,136,1) 48%, rgba(0,255,224,1) 100%);
+    color: rgb(233, 245, 255);
+    font-weight: 700;
+    border-radius: 50px;
+    width: 180px;
+    text-align: center;
+    height: 33px;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    border: solid 0px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.459);
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+}
+
+.botao_atrativo:hover{
+    box-shadow:  2px 2px 10px rgba(0,255,224,1);
+    color: rgba(0,255,224,1);
+}
+
+#secao_01{
+    display: flex;
+    align-items: center;
+}
+#text_secao01{
+    margin: 150px;
+    margin-top: 40px;
+    margin-right: 100px;
+    width: 800px;
+}
+.titulo_destaque{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 800;
+    font-size: 70px;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#000000, #666666);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitulo{
+    background: -webkit-linear-gradient(#000000, #666666);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: 800;
+}
+.paragrafo_comum{
+    margin-top: 10px;
+}
+#instalacao{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.img_install{
+    width: 20px;
+    margin-left: 150px ;
+}
+
+#img_cell{
+    width: auto;
+    height: 700px;
+    margin: 70px;
+    margin-top: 30px;
+}
+
+#secao_02{
+    display: flex;
+    justify-content: right;
+    background-color: #EAEAEA;
+}
+
+#img_car{
+    width: 700px;
+}
+#text_secao02{
+    margin-right: 500px;
+    margin-top: 120px;
+    justify-content: left;
+}
+
+#secao_03{
+    display: flex;
+    align-items: flex-start;
+    background-color: #1B1B1B;
+    background-image: url(img/fundo_secao03.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    
+}
+#icone_geral{
+    width: 70px;
+    margin-bottom: 50px;
+}
+
+#text_secao03{
+    margin-right: 500px;
+    margin-top: 100px;
+    justify-content: left;
+    margin-left: 50px;
+    color: #EAEAEA;
+}
+
+#iphone_img{
+    width: 200px;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+.text_destaque{
+    color: #EAEAEA;
+    font-weight: 800;
+    font-size: 35px;
+}
+#secao_04{
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    margin-bottom: 200px;
+}
